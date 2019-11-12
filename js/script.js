@@ -39,10 +39,7 @@ const body = document.querySelector('body');
   let div = document.createElement('div');
   div = document.getElementById('boat-container');
   document.getElementsByClassName('boat-container');
-  document.body.appendChild('div');
-
-  
-
+  document.body.appendChild(div);
 
 
 // 3. Create an `IMG` element and store it in a variable
