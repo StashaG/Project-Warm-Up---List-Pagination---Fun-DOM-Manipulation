@@ -22,9 +22,9 @@ const body = document.querySelector('body');
 
   // 1b. Append the `H1` element to the `body` element - body variable created for you above
 
-  let h1 = document.createElement("h1");
+  let h1 = document.createElement('h1');
   h1.innerHTML = "Fun DOM Manipulation";
-  h1 = document.getElementById("main-heading");  
+  h1 = document.getElementById('main-heading');  
   document.body.appendChild(h1);
 
 
@@ -36,8 +36,11 @@ const body = document.querySelector('body');
 
   // 2c. Append the `DIV` element to the `body` element - body variable created for you above
 
-  let div = document.createElement("div");
-  div = document.getElementById("boat-container");
+  let div = document.createElement('div');
+  div = document.getElementById('boat-container');
+  document.getElementsByClassName('boat-container');
+  document.body.appendChild('div');
+
   
 
 
