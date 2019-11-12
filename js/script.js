@@ -22,9 +22,10 @@ const body = document.querySelector('body');
 
   // 1b. Append the `H1` element to the `body` element - body variable created for you above
 
-  let h1Elem;
-  document.getElementById("h1Elem").innerHTML = "Fun DOM Manipulation";
-
+  let h1 = document.createElement("h1");
+  h1.innerHTML = "Fun DOM Manipulation";
+  h1 = document.getElementById("main-heading");  
+  h1.appendChild("body");
 
 
 // 2. Create a `DIV` element and store it in a variable
