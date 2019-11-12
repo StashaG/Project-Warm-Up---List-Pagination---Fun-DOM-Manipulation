@@ -36,6 +36,10 @@ const body = document.querySelector('body');
 
   // 2c. Append the `DIV` element to the `body` element - body variable created for you above
 
+  let div = document.createElement("div");
+  div = document.getElementById("boat-container");
+  
+
 
 
 // 3. Create an `IMG` element and store it in a variable
