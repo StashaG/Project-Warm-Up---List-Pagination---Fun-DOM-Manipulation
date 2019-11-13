@@ -24,7 +24,7 @@ const body = document.querySelector('body');
 
   let h1 = document.createElement('h1');
   h1.innerHTML = "Fun DOM Manipulation";
-  h1 = document.getElementById('main-heading');  
+  const mainId = document.getElementById('main-heading'); 
   document.body.appendChild(h1);
 
 
