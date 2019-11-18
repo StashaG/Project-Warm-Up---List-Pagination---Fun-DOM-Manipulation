@@ -39,8 +39,8 @@ const body = document.querySelector('body');
   // 2c. Append the `DIV` element to the `body` element - body variable created for you above
 
   let div = document.createElement('div');
-  div = document.getElementById('boat-container');
-  document.getElementsByClassName('boat-container');
+  div.id = 'boat-container';
+  div.className = 'boat-container';  
   document.body.appendChild(div);
 
 
