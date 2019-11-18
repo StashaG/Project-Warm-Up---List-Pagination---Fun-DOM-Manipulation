@@ -25,7 +25,9 @@ const body = document.querySelector('body');
   let h1 = document.createElement('h1');
   h1.innerHTML = "Fun DOM Manipulation";
   const mainId = document.getElementById('main-heading'); 
+  h1.id = mainId;
   document.body.appendChild(h1);
+  
 
 
 // 2. Create a `DIV` element and store it in a variable
