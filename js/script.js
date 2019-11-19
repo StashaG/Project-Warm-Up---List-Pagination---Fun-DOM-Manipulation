@@ -52,9 +52,14 @@ const body = document.querySelector('body');
 
   // 3c. Set the `IMG` element's `id` attribute equal to "boat-img"
 
-  // 3d. Append the `IMG` element to the `DIV` element you created above
+  // 3d. Append the `IMG` element to the `DIV` element you created 
 
-
+  let img = document.createElement('img');
+  img.src = 'img/boat.png';
+  img.alt = 'Tugboat';
+  img.id = 'boat-img';
+  document.body.appendChild(img);
+  
 
 // 4. Create another `IMG` element and store it in a variable
 
