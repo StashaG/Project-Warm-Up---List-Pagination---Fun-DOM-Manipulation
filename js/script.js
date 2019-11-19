@@ -75,4 +75,7 @@ const body = document.querySelector('body');
 
   let img2 = document.createElement('img2');
   img2.src = 'img/mike.png';
-  img.alt = 'Mike The Frog';
+  img2.alt = 'Mike The Frog';
+  img2.id = 'mike';
+  img2.className = 'mike';
+  document.body.appendChild(img2);
