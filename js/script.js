@@ -72,3 +72,7 @@ const body = document.querySelector('body');
   // 4d. Set the `IMG` element's `class` attribute equal to "mike"
 
   // 4e. Append the `IMG` element to the `body` element
+
+  let img2 = document.createElement('img2');
+  img2.src = 'img/mike.png';
+  img.alt = 'Mike The Frog';
