@@ -74,8 +74,8 @@ const body = document.querySelector('body');
   // 4e. Append the `IMG` element to the `body` element
 
   let img2 = document.createElement('img2');
-  img2.src = 'img/mike.png';
-  img2.alt = 'Mike The Frog';
-  img2.id = 'mike';
-  img2.className = 'mike';
-  document.getElementById('mike').appendChild(img2);
+  document.getElementById('img2').src = 'img/mike.png';
+  document.getElementsById('img2').alt = 'Mike The Frog';
+  document.getElementById('img2').id = 'mike';
+  document.getElementsByClassName('img2').className = 'mike';
+  document.body.appendChild('img2');
