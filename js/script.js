@@ -78,4 +78,4 @@ const body = document.querySelector('body');
   img2.alt = 'Mike The Frog';
   img2.id = 'mike';
   img2.className = 'mike';
-  document.body.appendChild(img2);
+  document.getElementById('mike').appendChild(img2);
